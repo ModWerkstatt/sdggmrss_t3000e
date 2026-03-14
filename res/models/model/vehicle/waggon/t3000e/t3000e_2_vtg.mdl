@@ -1,26 +1,3 @@
-local cargo_asset_set_container_provider = require "cargo_asset_set_container_provider";
-cargo_asset_set_container_provider.getContainer_20ft()
-cargo_asset_set_container_provider.getContainer_20ft_26ft()
-cargo_asset_set_container_provider.getContainer_30ft()
-cargo_asset_set_container_provider.getContainer_40ft()
-cargo_asset_set_container_provider.getContainer_40ft_45ft()
-cargo_asset_set_container_provider.getContainer_45ft()
-cargo_asset_set_container_provider.getContainer_45ft_rein()
-cargo_asset_set_container_provider.getContainer_20ft_cool()
-cargo_asset_set_container_provider.getContainer_40ft_cool_hc()
-cargo_asset_set_container_provider.getContainer_40ft_45ft_cool()
-cargo_asset_set_container_provider.getContainer_45ft_cool()
-cargo_asset_set_container_provider.getContainer_20ft_tank()
-cargo_asset_set_container_provider.getContainer_20ft_26ft_tank()
-cargo_asset_set_container_provider.getContainer_26ft_tank()
-cargo_asset_set_container_provider.getContainer_30ft_tank()
-cargo_asset_set_container_provider.getContainer_40ft_tank()
-cargo_asset_set_container_provider.getContainer_40ft_45ft_tank()
-cargo_asset_set_container_provider.getContainer_45ft_tank()
-cargo_asset_set_container_provider.getContainer_trailer_profiliner()
-cargo_asset_set_container_provider.getContainer_trailer_profiliner_cool()
-cargo_asset_set_container_provider.getContainer_trailer_megaliner()
-cargo_asset_set_container_provider.getContainer_trailer_megaliner_cool()
 function data()
 return {
 	boundingInfo = {
@@ -552,6 +529,30 @@ return {
 						},
 					},
 				},
+				{
+					axles = { "", },
+					fakeBogies = {
+						{
+							group = 13,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 13,
+							offset = 0,
+							position = -14.2,
+						},
+						{
+							group = 15,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 15,
+							offset = 0,
+							position = 14.2,
+						},
+					},
 			},
 			engines = { },
 			soundSet = "mw_container",

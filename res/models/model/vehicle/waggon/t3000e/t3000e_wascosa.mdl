@@ -523,6 +523,30 @@ return {
 						},
 					},
 				},
+				{
+					axles = { "", },
+					fakeBogies = {
+						{
+							group = 13,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 13,
+							offset = 0,
+							position = -14.2,
+						},
+						{
+							group = 15,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 15,
+							offset = 0,
+							position = 14.2,
+						},
+					},
 			},
 			engines = { },
 			soundSet = "mw_container",

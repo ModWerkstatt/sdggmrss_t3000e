@@ -1,78 +1,121 @@
 function data()
-return {
-	__version = "",
-	order = 0,
-	params = {
-		albedo_scale = {
-			albedoScale = { 1, 1, 1, },
-		},
-		color_blend = {
-			albedoScales = { 1.1200000047684, },
-			colors = {
-				{ 0, 0, 0, },
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			color_blend = { 
+				fragmentProperties = {
+					{ 
+						albedoScales = { 1.12000000476837158203125, 0, },
+						colors = {
+							{ 0, 0, 0, },
+							{ -1, -1, -1, },
+						},
+					},
+				},
+			},
+			dirt_rust = { 
+				fragmentProperties = {
+					{ 
+						dirtColor = { 0.0784313678741455078125, 0.066743560135364532470703125, 0.066743560135364532470703125, },
+						dirtOpacity = 0.3300000131130218505859375,
+						dirtScale = 1000,
+						rustColor = { 0.129411756992340087890625, 0.109873116016387939453125, 0.117688573896884918212890625, },
+						rustOpacity = 0.180000007152557373046875,
+						rustScale = 0.60000002384185791015625,
+					},
+				},
+			},
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo = { 
+				fragmentSamplers = { 
+					albedoTex = { 
+						fileName = "res/textures/models/vehicle/waggon/t3000e/rumpf3_clip_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_cblend_dirt_rust = { 
+				fragmentSamplers = { 
+					cblendDirtRustTex = { 
+						fileName = "res/textures/models/vehicle/waggon/t3000e/rumpf3_cblend_dirt_rust.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_dirt = { 
+				fragmentSamplers = { 
+					dirtTex = { 
+						fileName = "res/textures/models/vehicle/dirt_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_dirt_normal = { 
+				fragmentSamplers = { 
+					dirtNormalTex = { 
+						fileName = "res/textures/models/vehicle/dirt_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_metal_gloss_ao = { 
+				fragmentSamplers = { 
+					metalGlossAoTex = { 
+						fileName = "res/textures/models/vehicle/waggon/t3000e/rumpf3_metal_gloss_ao.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_normal = { 
+				fragmentSamplers = { 
+					normalTex = { 
+						fileName = "res/textures/models/vehicle/waggon/t3000e/rumpf3_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			map_rust = { 
+				fragmentSamplers = { 
+					rustTex = { 
+						fileName = "res/textures/models/vehicle/rust_albedo.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_rust_normal = { 
+				fragmentSamplers = { 
+					rustNormalTex = { 
+						fileName = "res/textures/models/vehicle/rust_normal.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			texcoord_scale = { 
+				fragmentProperties = {
+					{ 
+						texCoordScale = 1,
+					},
+				},
+			},
+			two_sided = { 
+				fragmentProperties = {
+					{ 
+						twoSided = true,
+					},
+				},
 			},
 		},
-		dirt_rust = {
-			age = 0,
-			dirtColor = { 0.078431367874146, 0.066743560135365, 0.066743560135365, },
-			dirtOpacity = 0.33000001311302,
-			dirtScale = 1000,
-			rustColor = { 0.12941175699234, 0.10987311601639, 0.11768857389688, },
-			rustOpacity = 0.18000000715256,
-			rustScale = 0.60000002384186,
-		},
-		fade_out_range = {
-			fadeOutEndDist = 20000,
-			fadeOutStartDist = 10000,
-		},
-		map_albedo = {
-			fileName = "models/vehicle/waggon/t3000e/rumpf3_clip_albedo.dds",
-			type = "TWOD",
-		},
-		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/waggon/t3000e/rumpf3_cblend_dirt_rust.dds",
-			type = "TWOD",
-		},
-		map_dirt = {
-			fileName = "models/vehicle/dirt_albedo.dds",
-			type = "TWOD",
-		},
-		map_dirt_normal = {
-			fileName = "models/vehicle/dirt_normal.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		map_metal_gloss_ao = {
-			fileName = "models/vehicle/waggon/t3000e/rumpf3_metal_gloss_ao.dds",
-			type = "TWOD",
-		},
-		map_normal = {
-			fileName = "models/vehicle/waggon/t3000e/rumpf3_normal.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		map_rust = {
-			fileName = "models/vehicle/rust_albedo.dds",
-			type = "TWOD",
-		},
-		map_rust_normal = {
-			fileName = "models/vehicle/rust_normal.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		normal_scale = {
-			normalScale = 1,
-		},
-		polygon_offset = {
-			factor = 0,
-			forceDepthWrite = false,
-			units = 0,
-		},
-		two_sided = {
-			flipNormal = true,
-			twoSided = true,
-		},
-	},
-	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
-}
+		type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+	}
 end
