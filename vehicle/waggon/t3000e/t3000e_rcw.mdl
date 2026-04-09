@@ -487,7 +487,7 @@ return {
 			},
 			description = { 
 				description = _("t3000e_desc4"),
-				name = _("t3000e_2_clip"),
+				name = _("t3000e_rcw"),
 			},
 			emissions = { 
 				noise = { 
@@ -732,7 +732,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "t3000e_menu.mdl",
+				groupFileName = "menu_t3000e.mdl",
 				loadSpeed = 6,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

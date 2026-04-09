@@ -744,7 +744,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "t3000e_menu.mdl",
+				groupFileName = "menu_t3000e.mdl",
 				loadSpeed = 6,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
