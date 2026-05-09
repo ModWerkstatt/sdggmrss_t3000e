@@ -42,7 +42,7 @@
 		{
             "mod": {
                 "modId": "mcmw_cont_asset",
-                "revisionMin": 0,
+                "revisionMin": 1,
                 "revisionMax": -1
             },
             "modInfo": {
