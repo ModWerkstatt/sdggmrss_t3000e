@@ -114,8 +114,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf_lod0.msh",
+									materials = { "mat/rumpf3_hupac.mtl", },
+									mesh = "msh/rumpf3_lod0.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -170,8 +170,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf2_lod0.msh",
+									materials = { "mat/rumpf4_hupac.mtl", },
+									mesh = "msh/rumpf4_lod0.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -308,8 +308,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf_lod1.msh",
+									materials = { "mat/rumpf3_hupac.mtl", },
+									mesh = "msh/rumpf3_lod1.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -320,8 +320,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf2_lod1.msh",
+									materials = { "mat/rumpf4_hupac.mtl", },
+									mesh = "msh/rumpf4_lod1.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -414,8 +414,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf_lod2.msh",
+									materials = { "mat/rumpf3_hupac.mtl", },
+									mesh = "msh/rumpf3_lod2.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -426,8 +426,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf2_lod2.msh",
+									materials = { "mat/rumpf4_hupac.mtl", },
+									mesh = "msh/rumpf4_lod2.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -448,8 +448,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf_lod3.msh",
+									materials = { "mat/rumpf3_hupac.mtl", },
+									mesh = "msh/rumpf3_lod3.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -460,8 +460,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_wascosa.mtl", },
-									mesh = "msh/rumpf2_lod3.msh",
+									materials = { "mat/rumpf4_hupac.mtl", },
+									mesh = "msh/rumpf4_lod3.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -479,15 +479,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2016,
+				yearFrom = 2017,
 				yearTo = 0,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("t3000e_desc"),
-				name = _("t3000e_wascosa"),
+				description = _("t3000e_desc4"),
+				name = _("t3000e_2_hupac"),
 			},
 			emissions = { 
 				noise = { 
@@ -533,50 +533,62 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "zapfen_leer_wascosa.mdl", },
+						models = { "zapfen_2_leer_hupac.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_20ft_wascosa.mdl", },
+						models = { "zapfen_2_20ft_hupac.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_40ft_wascosa.mdl", },
+						models = { "zapfen_2_30ft_hupac.mdl", },
 						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_lkw_wascosa.mdl", },
+						models = { "zapfen_2_40ft_hupac.mdl", },
 						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
-						group = "body2",
-						models = { "zapfen_leer_wascosa.mdl", },
-						randomId = 12,
+						group = "body",
+						models = { "zapfen_2_lkw_hupac.mdl", },
+						randomId = 4,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_20ft_wascosa.mdl", },
-						randomId = 13,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{ 
-						group = "body2",
-						models = { "zapfen_40ft_wascosa.mdl", },
-						randomId = 14,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{ 
-						group = "body2",
-						models = { "zapfen_lkw_wascosa.mdl", },
+						models = { "zapfen_2_leer_hupac.mdl", },
 						randomId = 15,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_20ft_hupac.mdl", },
+						randomId = 16,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_30ft_hupac.mdl", },
+						randomId = 17,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_40ft_hupac.mdl", },
+						randomId = 18,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_lkw_hupac.mdl", },
+						randomId = 19,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -731,10 +743,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_t3000e.mdl",
 				loadSpeed = 6,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

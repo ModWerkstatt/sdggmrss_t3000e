@@ -114,7 +114,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf_lod0.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -170,15 +170,9 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf2_lod0.msh",
 									name = "body2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
-									mesh = "msh/gitter_lod0.msh",
-									name = "gitter",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -314,7 +308,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf_lod1.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -326,7 +320,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf2_lod1.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -420,7 +414,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf_lod2.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -432,7 +426,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf2_lod2.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -454,7 +448,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf_lod3.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -466,7 +460,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_kombi.mtl", },
+									materials = { "mat/rumpf_wascosa3.mtl", },
 									mesh = "msh/rumpf2_lod3.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -485,7 +479,7 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2006,
+				yearFrom = 2015,
 				yearTo = 0,
 			},
 			cost = { 
@@ -493,7 +487,7 @@ return {
 			},
 			description = { 
 				description = _("t3000e_desc"),
-				name = _("t3000e_kombi"),
+				name = _("t3000e_wascosa3"),
 			},
 			emissions = { 
 				noise = { 
@@ -539,49 +533,49 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "zapfen_leer_kombi.mdl", },
+						models = { "zapfen_leer_wascosa3.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_20ft_kombi.mdl", },
+						models = { "zapfen_20ft_wascosa3.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_40ft_kombi.mdl", },
+						models = { "zapfen_40ft_wascosa3.mdl", },
 						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_lkw_kombi.mdl", },
+						models = { "zapfen_lkw_wascosa3.mdl", },
 						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_leer_kombi.mdl", },
+						models = { "zapfen_leer_wascosa3.mdl", },
 						randomId = 12,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_20ft_kombi.mdl", },
+						models = { "zapfen_20ft_wascosa3.mdl", },
 						randomId = 13,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_40ft_kombi.mdl", },
+						models = { "zapfen_40ft_wascosa3.mdl", },
 						randomId = 14,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_lkw_kombi.mdl", },
+						models = { "zapfen_lkw_wascosa3.mdl", },
 						randomId = 15,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -737,10 +731,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_t3000e.mdl",
 				loadSpeed = 6,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

@@ -114,8 +114,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf_lod0.msh",
+									materials = { "mat/rumpf3_ekol.mtl", },
+									mesh = "msh/rumpf3_lod0.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -170,15 +170,9 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf2_lod0.msh",
+									materials = { "mat/rumpf4_ekol.mtl", },
+									mesh = "msh/rumpf4_lod0.msh",
 									name = "body2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/gitter_lod0.msh",
-									name = "gitter",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -314,8 +308,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf_lod1.msh",
+									materials = { "mat/rumpf3_ekol.mtl", },
+									mesh = "msh/rumpf3_lod1.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -326,8 +320,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf2_lod1.msh",
+									materials = { "mat/rumpf4_ekol.mtl", },
+									mesh = "msh/rumpf4_lod1.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -420,8 +414,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf_lod2.msh",
+									materials = { "mat/rumpf3_ekol.mtl", },
+									mesh = "msh/rumpf3_lod2.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -432,8 +426,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf2_lod2.msh",
+									materials = { "mat/rumpf4_ekol.mtl", },
+									mesh = "msh/rumpf4_lod2.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -454,8 +448,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf_lod3.msh",
+									materials = { "mat/rumpf3_ekol.mtl", },
+									mesh = "msh/rumpf3_lod3.msh",
 									name = "body",
 									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -466,8 +460,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_cemat.mtl", },
-									mesh = "msh/rumpf2_lod3.msh",
+									materials = { "mat/rumpf4_ekol.mtl", },
+									mesh = "msh/rumpf4_lod3.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -485,15 +479,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2017,
+				yearFrom = 2018,
 				yearTo = 0,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("t3000e_desc"),
-				name = _("t3000e_cemat"),
+				description = _("t3000e_desc4"),
+				name = _("t3000e_2_ekol"),
 			},
 			emissions = { 
 				noise = { 
@@ -539,50 +533,62 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "zapfen_leer_cemat.mdl", },
+						models = { "zapfen_2_leer_ekol.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_20ft_cemat.mdl", },
+						models = { "zapfen_2_20ft_ekol.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_40ft_cemat.mdl", },
+						models = { "zapfen_2_30ft_ekol.mdl", },
 						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_lkw_cemat.mdl", },
+						models = { "zapfen_2_40ft_ekol.mdl", },
 						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
-						group = "body2",
-						models = { "zapfen_leer_cemat.mdl", },
-						randomId = 12,
+						group = "body",
+						models = { "zapfen_2_lkw_ekol.mdl", },
+						randomId = 4,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_20ft_cemat.mdl", },
-						randomId = 13,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{ 
-						group = "body2",
-						models = { "zapfen_40ft_cemat.mdl", },
-						randomId = 14,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{ 
-						group = "body2",
-						models = { "zapfen_lkw_cemat.mdl", },
+						models = { "zapfen_2_leer_ekol.mdl", },
 						randomId = 15,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_20ft_ekol.mdl", },
+						randomId = 16,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_30ft_ekol.mdl", },
+						randomId = 17,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_40ft_ekol.mdl", },
+						randomId = 18,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_2_lkw_ekol.mdl", },
+						randomId = 19,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -737,10 +743,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_t3000e.mdl",
 				loadSpeed = 6,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
