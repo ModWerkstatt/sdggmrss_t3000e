@@ -768,19 +768,19 @@ return {
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 10,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 11,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT40FTHC", "#CONT45FTHC", },
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", },
 						randomId = 12,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
 					},
@@ -810,7 +810,7 @@ return {
 					},
 					{ 
 						group = "body",
-						models = { "#CONT40FT", },
+						models = { "#CONT40FT", "#CONT40FTHC", },
 						randomId = 17,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
 					},					
@@ -876,19 +876,19 @@ return {
 					},
 					{ 
 						group = "body2",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 28,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 29,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "#CONT40FTHC", "#CONT45FTHC", },
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", },
 						randomId = 30,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
 					},
@@ -918,7 +918,7 @@ return {
 					},
 					{ 
 						group = "body2",
-						models = { "#CONT40FT", },
+						models = { "#CONT40FT", "#CONT40FTHC", },
 						randomId = 35,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
 					},
