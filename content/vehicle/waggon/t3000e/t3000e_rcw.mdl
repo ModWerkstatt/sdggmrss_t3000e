@@ -79,7 +79,7 @@ return {
 								},
 							},
 							name = "drehgestell_vorne",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -109,7 +109,7 @@ return {
 								},
 							},
 							name = "drehgestell_hinten",
-							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.19999980926513671875, 0, 0, 1, },
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -165,7 +165,7 @@ return {
 								},
 							},
 							name = "rumpf1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -221,7 +221,7 @@ return {
 								},
 							},
 							name = "rumpf2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -279,7 +279,7 @@ return {
 								},
 							},
 							name = "drehgestell_vorne",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -303,7 +303,7 @@ return {
 								},
 							},
 							name = "drehgestell_hinten",
-							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.19999980926513671875, 0, 0, 1, },
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -315,7 +315,7 @@ return {
 								},
 							},
 							name = "rumpf1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -327,7 +327,7 @@ return {
 								},
 							},
 							name = "rumpf2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -385,7 +385,7 @@ return {
 								},
 							},
 							name = "drehgestell_vorne",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -409,7 +409,7 @@ return {
 								},
 							},
 							name = "drehgestell_hinten",
-							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.19999980926513671875, 0, 0, 1, },
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -421,7 +421,7 @@ return {
 								},
 							},
 							name = "rumpf1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -433,7 +433,7 @@ return {
 								},
 							},
 							name = "rumpf2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -455,7 +455,7 @@ return {
 								},
 							},
 							name = "rumpf1",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.19999980926513671875, 0, 0, 1, },
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.2, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -467,7 +467,7 @@ return {
 								},
 							},
 							name = "rumpf2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.19999980926513671875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -516,6 +516,21 @@ return {
 							configurations = {
 								{
 									{ 0, },
+									{ 1, },
+									{ 1, 4, },
+									{ 1, 4, 5, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 6, },
+									{ 2, 6, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 7, },
+									{ 3, 7, },
 								},
 							},
 						},
@@ -524,7 +539,142 @@ return {
 						cargoSlots = { 
 							configurations = {
 								{
-									{ 5, },
+									{ 0, },
+									{ 1, },
+									{ 1, 8, },
+									{ 1, 8, 9, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 10, },
+									{ 2, 10, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 11, },
+									{ 3, 11, },
+								},
+							},
+						},
+					},
+					slots_2 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 12, },
+									{ 1, 12, 13, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 14, },
+									{ 2, 14, },
+								},
+							},
+						},
+					},
+					slots_3 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 8, },
+									{ 1, 8, 9, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 14, },
+									{ 2, 14, },
+								},
+							},
+						},
+					},
+					slots_4 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 15, },
+									{ 16, },
+									{ 16, 19, },
+									{ 16, 19, 20, },
+								},
+								{
+									{ 15, },
+									{ 17, },
+									{ 17, 21, },
+									{ 17, 21, },
+								},
+								{
+									{ 15, },
+									{ 18, },
+									{ 18, 22, },
+									{ 18, 22, },
+								},
+							},
+						},
+					},
+					slots_5 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 15, },
+									{ 16, },
+									{ 16, 23, },
+									{ 16, 23, 24, },
+								},
+								{
+									{ 15, },
+									{ 17, },
+									{ 17, 25, },
+									{ 17, 25, },
+								},
+								{
+									{ 15, },
+									{ 18, },
+									{ 18, 26, },
+									{ 18, 26, },
+								},
+							},
+						},
+					},
+					slots_6 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 15, },
+									{ 16, },
+									{ 16, 27, },
+									{ 16, 27, 28, },
+								},
+								{
+									{ 15, },
+									{ 17, },
+									{ 17, 29, },
+									{ 17, 29, },
+								},
+							},
+						},
+					},
+					slots_7 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 15, },
+									{ 16, },
+									{ 16, 23, },
+									{ 16, 23, 24, },
+								},
+								{
+									{ 15, },
+									{ 17, },
+									{ 17, 29, },
+									{ 17, 29, },
 								},
 							},
 						},
@@ -546,15 +696,81 @@ return {
 					{ 
 						group = "body",
 						models = { "zapfen_40ft_rcw.mdl", },
-						randomId = 3,
+						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "zapfen_lkw_rcw.mdl", },
-						randomId = 4,
+						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 4,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 5,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", "#SWBD45FT", },
+						randomId = 6,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#TRAILER45FT", "#TRAILER45FT_ML", },
+						randomId = 7,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.85, 0, 0.3, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 8,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 9,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FTHC", "#CONT45FTHC", },
+						randomId = 10,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#TRAILER45FT", "#TRAILER45FT_ML", },
+						randomId = 11,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.85, 0, 0.3, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 12,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 13,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FT", },
+						randomId = 14,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
+					},			
 					{ 
 						group = "body2",
 						models = { "zapfen_leer_rcw.mdl", },
@@ -570,15 +786,81 @@ return {
 					{ 
 						group = "body2",
 						models = { "zapfen_40ft_rcw.mdl", },
-						randomId = 18,
+						randomId = 17,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
 						models = { "zapfen_lkw_rcw.mdl", },
-						randomId = 19,
+						randomId = 18,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
+					{ 
+						group = "body2",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 19,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 20,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", "#SWBD45FT", },
+						randomId = 21,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#TRAILER45FT", "#TRAILER45FT_ML", },
+						randomId = 22,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.85, 0, 0.3, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT20FT", },
+						randomId = 23,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT20FT", },
+						randomId = 24,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT40FTHC", "#CONT45FTHC", },
+						randomId = 25,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#TRAILER45FT", "#TRAILER45FT_ML", },
+						randomId = 26,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.85, 0, 0.3, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 27,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.28, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 28,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 1.12, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "#CONT40FT", },
+						randomId = 29,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.59, 0, 1.12, 1, },
+					},				
 				},
 			},
 			maintenance = { 
@@ -598,7 +880,7 @@ return {
 							{ 
 								group = "rumpf1",
 								offset = 0,
-								position = -14.19999980926513671875,
+								position = -14.2,
 							},
 							{ 
 								group = "rumpf2",
@@ -608,7 +890,7 @@ return {
 							{ 
 								group = "rumpf2",
 								offset = 0,
-								position = 14.19999980926513671875,
+								position = 14.2,
 							},
 						},
 						{
@@ -620,7 +902,7 @@ return {
 							{ 
 								group = "rumpf1",
 								offset = 0,
-								position = -14.19999980926513671875,
+								position = -14.2,
 							},
 							{ 
 								group = "rumpf2",
@@ -630,7 +912,7 @@ return {
 							{ 
 								group = "rumpf2",
 								offset = 0,
-								position = 14.19999980926513671875,
+								position = 14.2,
 							},
 						},
 						{
@@ -642,7 +924,7 @@ return {
 							{ 
 								group = "rumpf1",
 								offset = 0,
-								position = -14.19999980926513671875,
+								position = -14.2,
 							},
 							{ 
 								group = "rumpf2",
@@ -652,29 +934,29 @@ return {
 							{ 
 								group = "rumpf2",
 								offset = 0,
-								position = 14.19999980926513671875,
+								position = 14.2,
 							},
 						},
 						{
 							{ 
-								group = "RootNode",
+								group = "rumpf1",
 								offset = 0,
 								position = 0,
 							},
 							{ 
-								group = "RootNode",
+								group = "rumpf1",
 								offset = 0,
-								position = -14.19999980926513671875,
+								position = -14.2,
 							},
 							{ 
-								group = "RootNode",
+								group = "rumpf2",
 								offset = 0,
 								position = 0,
 							},
 							{ 
-								group = "RootNode",
+								group = "rumpf2",
 								offset = 0,
-								position = 14.19999980926513671875,
+								position = 14.2,
 							},
 						},
 					},
@@ -698,14 +980,56 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 76,
+									capacity = 60,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS", },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = {  },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fabric/fabric.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/glass/glass.cargo", "::/cargos/paper/paper.cargo", "::/cargos/plastic/plastic.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/tires/tires.cargo", "::/cargos/tools/tools.cargo", "::/cargos/wool/wool.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_3",
 									seats = { },
 								},
 								toHide = { },
@@ -716,14 +1040,56 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 76,
+									capacity = 60,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS", },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = {  },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
+										cargoTypesIncluded = { },
 									},
-									loadIndicator = "slots_1",
+									loadIndicator = "slots_4",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fabric/fabric.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/glass/glass.cargo", "::/cargos/paper/paper.cargo", "::/cargos/plastic/plastic.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/tires/tires.cargo", "::/cargos/tools/tools.cargo", "::/cargos/wool/wool.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_5",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_6",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_7",
 									seats = { },
 								},
 								toHide = { },
