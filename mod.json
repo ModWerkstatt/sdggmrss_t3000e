@@ -54,10 +54,33 @@
         }
     ],
     "incompatibilities": null,
-    "modId": "mw_sdggmrss_t3000e",
-    "params": null,
+    "modId": "mw_sdggmrss_t3000e",    
+	"params":[
+        {
+            "key": "t3000e_ganzzug",
+            "name": "ganzzug_t3000e",
+            "tooltip": "tooltip_ganzzug",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        },
+		{
+            "key": "t3000e_fake",
+            "name": "fake_t3000e",
+            "tooltip": "tooltip_fake",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        }
+    ],
     "postRunScript": {
-        "fileName": ""
+        "fileName": "mw_sdggmrss_t3000e::mod.script@postRunFn"
     },
     "preRunScript": {
         "fileName": ""

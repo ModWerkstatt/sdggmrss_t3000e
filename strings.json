@@ -4,6 +4,8 @@
 		
 		"fake": "Fake - ",
 	
+		"ganzzug_t3000e": "Activate only complete trains and trailers?",
+		"tooltip_ganzzug": "Should the block trains and cars that only load trailers have the Sdggmrss T3000e enabled?",	
 		"fake_t3000e": "Activate fake versions?",
 		"tooltip_fake": "Should the fake versions be available in the game?",
 		
@@ -34,18 +36,17 @@
 		
         "t3000e_desc" : "An EU joint research project began the development of an articulated pocket wagon for the transport of mega trailers in 2001. In 2001, a first prototype was built and carefully tested by the Swiss manufacturer Ferriere Cattaneo. In 2002 the car was presented to the public in the Duss Terminal Cologne Eifeltor, and series production of the T3000e began in 2006. From 2017, the car was equipped with additional mounting pins according to ISO standards to enable the transport of 30ft containers.",
       
-		"ladung_container" : " - Container",
-		"ladung_trailer" : " - Trailer",
+		"trailer" : " - Only Trailer",
 		
-		"ganzzug_ekol" : " - Block train Ekol",
-		"ganzzug_walter" : " - Block train Walter",
-		"ganzzug_wetron" : " - Block train Wetron",
-		"ganzzug_winner" : " - Block train Winner",
-		"ganzzug_jost" : " - Block train Jost Group/T.T.S.",
-		"ganzzug_bode" : " - Block train HH Bode",
-		"ganzzug_vehne" : " - Block train Große Vehne",
-		"ganzzug_mars" : " - Block train Mars",		
-	  	  
+		"ekol" : " - Block Train Ekol",
+		"lkw_walter" : " - Block Train Lkw Walter",
+		"wetron" : " - Block Train Wetron",
+		"winner" : " - Block Train Winner",
+		"jost_tts" : " - Block Train Jost Group/ T.T.S.",
+		"hhbode" : " - Block Train HH Bode",
+		"grosse_vehne" : " - Block Train Große Vehne",
+		"mars" : " - Block Train Mars",		
+		
 		"offset x-axis": "Offset x-axis",
 		"vehicle": "Vehicle",
 		"asset": "Asset",
@@ -61,6 +62,8 @@
 	
 		"fake": "Fake -",	
 	
+		"ganzzug_t3000e": "Ganzzüge und nur Trailer aktivieren?",
+		"tooltip_ganzzug": "Sollen die Ganzzüge und Wagen die nur Trailer Laden des Sdggmrss T3000e aktiviert werden?",	
 		"fake_t3000e": "Fake-Versionen aktivieren?",
 		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 	
@@ -91,17 +94,16 @@
 		
         "t3000e_desc" : "Durch ein Verbundforschungsprojekt der EU begann im Jahr 2001 die Entwicklung eines Gelenk-Taschenwagens für den Transport von Megatrailern. Im Jahr 2001 wurde beim Schweizer Hersteller Ferriere Cattaneo ein erste Prototyp gebaut und sorgfältig erprobt. 2002 wird der Wagen im Duss Terminal Köln Eifeltor der Öffentlichkeit vorgestellt, ab dem Jahr 2006 begann die Serienproduktion des T3000e. Ab dem Jahr 2017 wurde der Wagen mit zusätzlichen Aufssetzzapfen nach ISO-Norm ausgerüstet um den Transport von 30ft Containern zu ermöglichen.",
 		
-		"ladung_container" : " - Container",
-		"ladung_trailer" : " - Trailer",
+		"trailer" : " - Nur Trailer",
 		
-		"ganzzug_ekol" : " - Ganzzug Ekol",
-		"ganzzug_walter" : " - Ganzzug Walter",
-		"ganzzug_wetron" : " - Ganzzug Wetron",
-		"ganzzug_winner" : " - Ganzzug Winner",
-		"ganzzug_jost" : " - Ganzzug Jost Group/T.T.S.",
-		"ganzzug_bode" : " - Ganzzug HH Bode",
-		"ganzzug_vehne" : " - Ganzzug Große Vehne",
-		"ganzzug_mars" : " - Ganzzug Mars",		
+		"ekol" : " - Ganzzug Ekol",
+		"lkw_walter" : " - Ganzzug Lkw Walter",
+		"wetron" : " - Ganzzug Wetron",
+		"winner" : " - Ganzzug Winner",
+		"jost_tts" : " - Ganzzug Jost Group/ T.T.S.",
+		"hhbode" : " - Ganzzug HH Bode",
+		"grosse_vehne" : " - Ganzzug Große Vehne",
+		"mars" : " - Ganzzug Mars",		
 		
 		"offset x-axis": "Offset x-Achse",
 		"vehicle": "Fahrzeug",
