@@ -5,7 +5,7 @@
 		"fake": "Fake - ",
 	
 		"ganzzug_t3000e": "Activate only complete trains and trailers?",
-		"tooltip_ganzzug": "Should the block trains and cars that only load trailers have the Sdggmrss T3000e enabled?",	
+		"tooltip_ganzzug": "Should block trains and cars that only load trailers be enabled?",	
 		"fake_t3000e": "Activate fake versions?",
 		"tooltip_fake": "Should the fake versions be available in the game?",
 		
@@ -63,7 +63,7 @@
 		"fake": "Fake -",	
 	
 		"ganzzug_t3000e": "Ganzzüge und nur Trailer aktivieren?",
-		"tooltip_ganzzug": "Sollen die Ganzzüge und Wagen die nur Trailer Laden des Sdggmrss T3000e aktiviert werden?",	
+		"tooltip_ganzzug": "Sollen die Ganzzüge und Wagen die nur Trailer Laden aktiviert werden?",	
 		"fake_t3000e": "Fake-Versionen aktivieren?",
 		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 	
